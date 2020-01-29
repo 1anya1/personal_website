@@ -11,6 +11,7 @@
     --tiffany: #00bac7;
     --pink: #c72ee6;
     --black: #312c20;
+    --light-blue: #4261dd62;
 }
 
 body{
@@ -53,9 +54,9 @@ button{
   background: -webkit-linear-gradient( left ,#008fc7, #4261dd,#7b46cf);
 }
 div.projects{
-  height: 400px;
-  border-top:solid .5px var(--tiffany); 
-  border-bottom:solid .5px var(--tiffany); 
+  padding: 30px 0 30px 0;
+  /* border-top:solid .5px var(--tiffany);  */
+  border-bottom:solid .5px var(--light-blue); 
   margin: 0 0 50px 0;
   display: flex;
   flex-direction: column;
@@ -63,8 +64,9 @@ div.projects{
   justify-content: center;
 
 }
+
 img{
-height:270px;
+  height:270px;
 
 }
 header {
@@ -119,6 +121,7 @@ p{
     
 
 }
+
 footer{
     /* background: -webkit-linear-gradient( left ,rgb(0, 255, 170),#04e5f5,#35b2d8,#149ac7, 
     #4173db, #4a67de,#604be2, #bb2ee6);
@@ -129,3 +132,4 @@ footer{
     height:100px; */
     background: white;
 }
+

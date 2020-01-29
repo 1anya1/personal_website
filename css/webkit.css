@@ -1,4 +1,4 @@
-h1.left {
+button {
   animation: lightSpeedIn1;
   -webkit-animation: lightSpeedIn1 2.5s;
   animation-name: lightSpeedIn1;
