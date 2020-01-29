@@ -58,7 +58,7 @@ h2{
 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: -webkit-linear-gradient( right ,#00bac7,#18a3d2, #4a67de,#604be2, #c72ee6);
+    background: -webkit-linear-gradient( right ,#00bac7,#5e84d6, #4261dd,#5846cf, #de37ff);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
@@ -100,7 +100,7 @@ h1.right {
     animation-timing-function: ease-out;
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .container {
     padding:100px 50px;
 }
@@ -119,8 +119,8 @@ h1.right {
     .container {
         padding: 100px 250px;
     }
-}
-@-webkit-keyframes lightSpeedIn {
+} */
+/* @-webkit-keyframes lightSpeedIn {
     from {
       -webkit-transform: translate3d(0%, 0, 0) skewX(-10deg);
       transform: translate3d(100%, 0, 0) skewX(-30deg);
@@ -225,4 +225,4 @@ h1.right {
     }
   }
   
-  
+   */
